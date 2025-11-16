@@ -91,7 +91,8 @@ Opens at `http://localhost:8082`
 shipper-app/
 ├── app/                          # App screens and routing
 │   ├── _layout.tsx              # Root layout
-│   ├── index.tsx                # Welcome screen
+│   ├── index.tsx                # Home screen
+│   ├── login.tsx                # Welcome screen
 │   ├── (tabs)/                  # Tab-based screens
 │   │   ├── _layout.tsx
 │   │   ├── pickup.tsx
@@ -101,7 +102,8 @@ shipper-app/
 │   ├── delivery/[id].tsx        # Delivery detail screen
 │   ├── pickup/[id].tsx          # Pickup detail screen
 │   ├── history/index.tsx        # Delivery history
-│   └── schedule/index.tsx       # Work schedule
+│   ├── schedule/index.tsx       # Work schedule
+│   └── settings/index.tsx       # Setiing profile
 ├── components/                   # Reusable UI components
 │   ├── ActionButton.tsx
 │   ├── OrderCard.tsx
